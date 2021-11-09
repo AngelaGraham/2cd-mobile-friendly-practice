@@ -1,6 +1,21 @@
-body{
-    background-color: rgb(231, 229, 186) ;
+
+@media screen and (min-width: 480px){
+    body{
+    background-color: rgb(173, 241, 163) ;
 }
+}
+@media screen and (min-width: 768px) {
+    body {
+    background-color: rgb(243, 243, 146);
+    }
+}
+@media screen and (min-width: 1024px){
+    body {
+    background-color:rgb(167, 231, 231) (233, 238, 211);
+    }
+}
+
+
 h2 {
     color:rgb(15, 153, 233);
     font-size: 25px;}
@@ -8,4 +23,13 @@ h2 {
 .S-1 { 
     margin-left: 50px;
     margin-right: 50px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+    padding-left: 25px;
+  }
+.unicorns{ 
+    flex-wrap: wrap;
 }
